@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import { Widecard } from '../widecard'
 
@@ -20,7 +20,7 @@ export const Timeline = (props) => {
     //     }
     // }
 
-    const data = this.props.display === 'Experience' ? expdata : edudata
+    const data = props.display === 'Experience' ? expdata : edudata
     return (
         <div className="divstyle">
             <h3 className="subtopic">{props.display}</h3>

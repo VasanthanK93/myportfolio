@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ReactTypingEffect from 'react-typing-effect';
 
 import { profilePic } from '../../img'

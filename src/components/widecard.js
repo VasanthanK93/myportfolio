@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export const Widecard = () => {
+export const Widecard = (props) => {
     return (
         <div className="card bg-light" style={{ marginTop: "20px" }}>
             <h5 className="card-header">
-                {this.props.title}</h5>
+                {props.title}</h5>
             <div className="card-body">
-                <h6 className="card-text">{this.props.from}</h6>
-                <h6 className="card-text">{this.props.duration}</h6>
+                <h6 className="card-text">{props.from}</h6>
+                <h6 className="card-text">{props.duration}</h6>
             </div>
 
         </div>
